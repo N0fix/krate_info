@@ -433,7 +433,7 @@ dependencies = [
 
 [[package]]
 name = "krate_info"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "crates_io_api",
  "log",

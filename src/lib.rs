@@ -1,4 +1,4 @@
-mod krates;
+pub mod krates;
 
 #[cfg(test)]
 mod tests {
