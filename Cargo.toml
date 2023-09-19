@@ -1,0 +1,18 @@
+[package]
+name = "krate_info"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+repository = "https://github.com/N0fix/krate_info"
+authors = ["Nofix"]
+keywords = ["rust", "crate", "info"]
+readme = "README.md"
+description = "Small library utilizing `crates_io_api` to offer a straightforward interface for retrieving information about crates"
+
+[dependencies]
+crates_io_api = "0.8.1"
+log = "0.4.20"
+reqwest = "0.11.20"
+semver = "1.0.18"
+
+[lib]
